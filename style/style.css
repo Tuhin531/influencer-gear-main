@@ -62,6 +62,9 @@ body{
 
 
 .journey-section{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat ;
+    background-position: right;
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
@@ -111,11 +114,11 @@ body{
     position: relative; 
     z-index: 1;
 }
- .back-image{
+ /* .back-image{
     position: absolute;
     bottom: 250px;
    
-}
+} */
 
 
 /* Company Ad section */
@@ -196,4 +199,75 @@ hr{
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.252px;
+ }
+
+ .slide-option{
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+    text-align:end;
+    
+
+ }
+ /* Feature Product section */
+ .feature-section{
+     display: flex;
+     gap:40px;
+     padding-bottom: 40px;
+    
+
+ }
+ .feature-photo{
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+ }
+ .feature-title{
+    color: #0A0826;
+    font-size: 38px;  
+    font-weight: 700;
+   
+ }
+ .feature-description{
+    width: 501px;
+    height: 88px;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+ }
+ .feature-section .btn-primary{
+     border-radius: 0px;
+ }
+ /* footer section */
+
+ .footer{
+      background-color:#0A0826 ; 
+      padding: 50px;
+      margin:  0 auto;
+ }
+ .footer-section{
+     text-align: center;
+ }
+ .footer-title{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+  
+
+ }
+ .footer-description{
+    color:  #D9DBE1;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+ }
+
+ .social-media i{
+  padding-left: 16px;
+    color: #fff;
+  
+   
+
+
  }
